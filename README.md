@@ -1,5 +1,16 @@
 # Interview-Question-Creator
 
+created a Rag aplication to extract data from pdf and created a interview question
+
+Techstack:
+
+- Python
+- FAISS
+- OPENAI
+- Langchain
+- Jinja2
+- FastAPI
+
 How to run?:
 
 1. Clone Repository
