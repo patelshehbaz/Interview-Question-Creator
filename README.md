@@ -2,7 +2,7 @@
 
 This project is a web application designed using the Retrieval-Augmented Generation (RAG) architecture to extract data from PDF files and generate interview questions based on the content. The application utilizes various technologies including FAISS, OpenAI, Langchain, Jinja2, and FastAPI.
 
-Tech Stack
+### Tech Stack
 
 - Python: The core programming language used for the application.
 - FAISS: A library for efficient similarity search and clustering of dense vectors, used here for document retrieval.
@@ -11,14 +11,14 @@ Tech Stack
 - Jinja2: A templating engine for rendering HTML templates.
 - FastAPI: The web framework used for building the API.
 
-- Features
+### Features
 
-* Upload PDF files.
-* Extract content from uploaded PDFs.
-* Generate interview questions based on the extracted content.
-* Download the generated questions in CSV format.
+- Upload PDF files.
+- Extract content from uploaded PDFs.
+- Generate interview questions based on the extracted content.
+- Download the generated questions in CSV format.
 
-- How to run?:
+### How to run?:
 
 1. Clone Repository
 
@@ -47,21 +47,21 @@ conda activate interview
 pip install -r requirements.txt
 ```
 
-- Access the Application
+### Access the Application
 
 Open your web browser and navigate to http://127.0.0.1:8000/ to access the application.
 
-- Upload a PDF
+### Upload a PDF
 
 1. Use the upload form on the homepage to upload a PDF file.
 2. The application will extract content from the uploaded PDF and generate interview questions.
 3. Download the generated questions in CSV format.
 
-- Contributing
+### Contributing
 
 Contributions are welcome! Please create a pull request or open an issue to discuss any changes.
 
-- Where This Tool Will Be Helpful
+### Where This Tool Will Be Helpful
 
 The Interview Question Creator is particularly useful in the following scenarios:
 
